@@ -1,0 +1,119 @@
+:root{
+    --couleurBase:#408e2f;
+    --blanc:#fff;
+    --noir:#000;
+}
+
+
+
+/* Style pour la Navbar */
+
+nav{
+    border-bottom: 1px solid var(--couleurBase);
+}
+
+.logo {
+    background-color:var(--blanc);
+    color:var(--couleurBase);
+    font-size:1.5rem;
+    font-weight:600;
+}
+
+.logo span span{
+    font-size:2.5rem;
+    font-style:italic;
+}
+
+.logo:hover {
+    background-color:var(--couleurBase);
+    color:var(--blanc);
+}
+
+.div-menu{
+    padding-left: 25%;
+}
+
+@media(max-width:999px){
+    .div-menu{
+    padding-left:0;
+    }
+}
+/*@media(min-width:1200px){
+    .div-menu{
+    padding-left: 60%;
+    }
+}*/
+
+.div-menu ul li a{
+    color: var(--noir);
+}
+
+.div-menu ul li a:hover{
+    color: var(--couleurBase);
+}
+
+/* Style pour la section Hero */
+
+.section-hero{
+    background:#408e2f06;
+    
+}
+
+.div-hero-text{
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+
+@media(max-width:999px){
+    .div-hero-text{
+    padding-left: 20px;
+    padding-top: 10px;
+    }
+}
+
+.div-hero-text h1{
+    font-size: 65px;
+    color: var(--couleurBase);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boutons-hero span, .section-reduction span{
+    cursor: pointer;
+}
+
+.bouton1{
+    background-color: var(--couleurBase);
+    color:var(--blanc);
+    
+}
+
+.bouton2{
+    border: 1px solid var(--couleurBase);
+    color:var(--couleurBase);
+}
+
+.bouton2 a{
+    color:var(--couleurBase);
+}
+
+/* Style produits */
+
+/* Style reduction */
+
+.section-reduction{
+    background:#408e2f06; 
+    margin-top: 100px;
+    
+}
+
+.section-reduction span{
+    width:150px;
+}
+
+/*.section-reduction img{
+    max-width: 100%;
+    max-height: 100%;
+}*/
+
+
+/* style footer */
