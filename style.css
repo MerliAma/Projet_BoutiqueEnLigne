@@ -109,6 +109,10 @@ nav{
     margin-top: 100px;
 }
 
+img{
+    max-height: 270px;
+}
+
 
 /* Style reduction */
 
