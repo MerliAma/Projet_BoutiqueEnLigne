@@ -97,23 +97,28 @@ nav{
 }
 
 /* Style produits */
+.section-produit{
+    margin-top: 100px;
+}
+
 
 /* Style reduction */
 
 .section-reduction{
     background:#408e2f06; 
     margin-top: 100px;
-    
+    max-height: -25%;
 }
 
 .section-reduction span{
     width:150px;
 }
 
-/*.section-reduction img{
-    max-width: 100%;
-    max-height: 100%;
-}*/
+.section-reduction img{
+    max-height: 500px;
+    max-height: 500px;
+    /*margin-left: 25%;*/
+}
 
 
 /* style footer */
