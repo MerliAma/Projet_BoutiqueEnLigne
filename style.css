@@ -96,6 +96,14 @@ nav{
     color:var(--couleurBase);
 }
 
+/* style pour section intermédiaire */
+
+.etiquettes {
+    padding: 0.5rem;
+    line-height: 25px;
+}
+
+
 /* Style produits */
 .section-produit{
     margin-top: 100px;
