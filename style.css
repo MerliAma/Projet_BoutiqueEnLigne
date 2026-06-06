@@ -110,7 +110,14 @@ nav{
 }
 
 img{
-    max-height: 270px;
+    max-height: 250px;
+}
+
+@media(max-width:999px){
+    img{
+    max-height: 100%;
+    
+}
 }
 
 
@@ -134,3 +141,6 @@ img{
 
 
 /* style footer */
+.footer1{
+    background-color: rgba(128, 128, 128, 0.142)
+}
