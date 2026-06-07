@@ -109,12 +109,12 @@ nav{
     margin-top: 100px;
 }
 
-img{
+.section-produit img{
     max-height: 250px;
 }
 
 @media(max-width:999px){
-    img{
+    .section-produit img{
     max-height: 100%;
     
 }
@@ -144,3 +144,23 @@ img{
 .footer1{
     background-color: rgba(128, 128, 128, 0.142)
 }
+
+.inputNom{
+    width:350px;
+}
+
+@media(max-width:999px){
+    .inputNom{
+    width:100px;
+}
+
+}
+
+.inputTel{
+    width:150px;
+}
+
+.footer1 .btn{
+    margin-left: 85%;
+}
+
