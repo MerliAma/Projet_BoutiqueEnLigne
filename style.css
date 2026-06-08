@@ -38,11 +38,6 @@ nav{
     padding-left:0;
     }
 }
-/*@media(min-width:1200px){
-    .div-menu{
-    padding-left: 60%;
-    }
-}*/
 
 .div-menu ul li a{
     color: var(--noir);
@@ -104,7 +99,7 @@ nav{
 }
 
 
-/* Style produits */
+/* Stylepour la section produits */
 .section-produit{
     margin-top: 100px;
 }
@@ -121,7 +116,7 @@ nav{
 }
 
 
-/* Style reduction */
+/* Style pour la section reduction */
 
 .section-reduction{
     background:#408e2f06; 
@@ -130,17 +125,16 @@ nav{
 }
 
 .section-reduction span{
-    width:150px;
+    width:200px;
 }
 
 .section-reduction img{
     max-height: 500px;
     max-height: 500px;
-    /*margin-left: 25%;*/
 }
 
 
-/* style footer */
+/* style pour le footer */
 .footer1{
     background-color: rgba(128, 128, 128, 0.142)
 }
@@ -164,3 +158,9 @@ nav{
     margin-left: 85%;
 }
 
+@media(max-width:999px){
+    .footer1 .btn{
+    text-align: center;
+    margin-left: 0;
+}
+}

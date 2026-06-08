@@ -1,0 +1,12 @@
+DESCRIPTION DES CHOIX DE CONCEPTION
+
+Pour la conception de la page d'atterrissage de la boutique,
+ j'ai eu à utiliser Bootstrap.
+
+-Une Navbar Bootstrap customisée que j'ai eu à améliorer pour l'adapter à mes besoins
+
+-Les grilles Bootstrap qui m'ont permis de faire belle disposition et ont facilité la responsivité
+
+-les cartes Bootstrap qui m'ont permis d'avoir une des fiches de produits bien structurées et attrayantes
+
+-les medias queries pour gérer les limites de bootstrap
